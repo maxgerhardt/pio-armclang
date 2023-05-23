@@ -72,7 +72,6 @@ for e in [env, projenv, DefaultEnvironment()]:
         #"-M",
         "-mthumb",
         #"--apcs=interwork",
-        #"-o C:\\Users\\gacnik\\Desktop\\PVC2-SES-PlatformIO\\PVC2 test\\.pio\\build\\genericSTM32F103VC\\src\\Drivers\\STM32F1xx_HAL_Driver\\Src"
         # Add more flags to exclude as needed
     ])
 
@@ -93,7 +92,6 @@ for e in [env, projenv, DefaultEnvironment()]:
         "--strict",
         #"--target=arm-arm-none-eabi",
         #"-mcpu=Cortex-M3",
-        # "-o C:\\Users\\gacnik\\Desktop\\PVC2-SES-PlatformIO\\PVC2 test\\.pio\\build\\genericSTM32F103VC\\src\\Drivers\\STM32F1xx_HAL_Driver\\Src"
         # Add more flags to exclude as needed
     ])
     old_flags = e["LINKFLAGS"].copy()
