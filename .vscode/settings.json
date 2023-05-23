@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "stm32f1xx.h": "c"
+    }
+}

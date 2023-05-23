@@ -1,0 +1,23 @@
+{
+    "name": "toolchain-armcc",
+    "version": "1.50000.200702",
+    "description": "ARMCC compiler",
+    "keywords": [
+      "toolchain",
+      "build tools",
+      "compiler",
+      "assembler",
+      "linker",
+      "preprocessor",
+      "arm"
+    ],
+    "homepage": "https://developer.arm.com/Tools%20and%20Software/Arm%20Compiler%20for%20Embedded",
+    "license": "GPL-2.0-or-later",
+    "system": [
+      "windows_amd64"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://gcc.gnu.org/git/gcc.git"
+    }
+  }

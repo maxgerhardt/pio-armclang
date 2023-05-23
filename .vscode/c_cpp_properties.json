@@ -1,0 +1,47 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Max/temp/use_armcc/include",
+                "c:/Users/Max/temp/use_armcc/src",
+                "c:/Users/Max/temp/use_armcc/src/Device",
+                "c:/Users/Max/temp/use_armcc/src/CMSIS",
+                "c:/Users/Max/temp/use_armcc/src/STM32F1xx_HAL_Driver/Inc",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Max/temp/use_armcc/include",
+                    "c:/Users/Max/temp/use_armcc/src",
+                    "c:/Users/Max/temp/use_armcc/src/Device",
+                    "c:/Users/Max/temp/use_armcc/src/CMSIS",
+                    "c:/Users/Max/temp/use_armcc/src/STM32F1xx_HAL_Driver/Inc",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=72000000L",
+                "PLATFORMIO=60108",
+                "STM32F103xE",
+                "STM32F1",
+                "STM32F103xE",
+                "USE_HAL_DRIVER",
+                ""
+            ],
+            "compilerPath": "C:/Users/Max/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
